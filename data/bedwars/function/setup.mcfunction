@@ -1,0 +1,18 @@
+scoreboard objectives add bedwars dummy
+scoreboard objectives add bedwars_player_id dummy
+scoreboard objectives add bedwars_bed_id dummy
+scoreboard objectives add bedwars_respawncheck_marker_id dummy
+
+scoreboard objectives add bedwars_spawnx dummy
+scoreboard objectives add bedwars_spawny dummy
+scoreboard objectives add bedwars_spawnz dummy
+scoreboard objectives add bedwars_spawnx_temp dummy
+scoreboard objectives add bedwars_spawny_temp dummy
+scoreboard objectives add bedwars_spawnz_temp dummy
+
+scoreboard objectives add bedwars_player_spawnset_entitycount dummy
+
+scoreboard objectives add bedwars_player_death deathCount
+
+scoreboard objectives add bedwars_player_can_respawn dummy
+scoreboard objectives add bedwars_respawn_countdown dummy

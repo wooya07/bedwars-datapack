@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "bedwars"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe/*"
+      }
+    ]
+  }
+}
