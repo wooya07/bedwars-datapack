@@ -2,9 +2,6 @@ scoreboard objectives add goldtimer dummy
 scoreboard objectives add goldtimer_s dummy
 scoreboard objectives add goldtimer_ms dummy
 
-
-
-
 scoreboard players add @a goldtimer 1
 
 scoreboard players remove @a[scores={goldtimer=2}] goldtimer_ms 1
@@ -31,10 +28,9 @@ scoreboard players set @a[scores={goldtimer_s=-1}] goldtimer_s 0
 scoreboard players set @a[scores={goldtimer_ms=-1}] goldtimer_ms 9
 
 
-
 execute as @a[tag=finished] run title @s actionbar [{ "text": "재시작까지 : "},{"score": {"name":"*","objective":"goldtimer_s"}},{"text":"."},{"score":  {"name": "*","objective":"goldtimer_ms"}}]
-
 
 scoreboard players add @a finish_seconds 1
 
+#우승자 finish_second 만 100이 됨 > end함수 1번만 실행 (문제 해결)
 execute as @a[tag=finished] as @s[scores={finish_seconds=100}] run function bedwars:end

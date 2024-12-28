@@ -11,6 +11,7 @@ execute if score @s bedwars_player_spawnset_entitycount matches 1.. run tellraw 
 
 # 1 뺀 거 되돌리기
 scoreboard players add @s bedwars_spawny_temp 1
+
 # 다른 사람과 같은 침대에 리스폰 설정 시도했을 경우
 # - 아직 스폰포인트가 제대로 설정되지 않은 경우 placeholder 값으로 바꾸고 리턴
 # - 스폰포인트를 한번이라도 설정한 적이 있다면 이전 값으로 되돌리기
